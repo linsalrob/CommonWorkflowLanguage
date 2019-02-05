@@ -1,0 +1,9 @@
+{
+    "samfile" : {
+        "class" : "File",
+        "format" : "http://edamontology.org/format_2573",
+        "path"  : "test.sam"
+    },
+    "threads" : 16,
+}
+

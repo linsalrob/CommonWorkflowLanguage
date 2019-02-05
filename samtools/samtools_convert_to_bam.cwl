@@ -36,7 +36,8 @@
             "type" : "File",
             "outputBinding" : {
                 "glob" : "$(inputs.bamfile)"
-            }
+            },
+            "streamable" : true
         }
     }
 }
