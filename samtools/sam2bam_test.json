@@ -1,0 +1,10 @@
+{
+    "sorted_sam" : {
+        "class" : "File",
+        "format" : "http://edamontology.org/format_2573",
+        "path"  : "test.sam"
+    },
+    "bamfile" : "test.bam",
+    "threads" : 16,
+    "convert_to_binary" : true
+}
