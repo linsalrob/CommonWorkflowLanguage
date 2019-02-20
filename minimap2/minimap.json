@@ -1,0 +1,22 @@
+{
+    "doc" : "A json file that defines the inputs to minimap2",
+    "threads" : 16,
+    "samfile" : "crass2SRR2297848.sam",
+    "indexFile" : {
+        "class" : "File",
+        "path"  : "JQ995537.mmi"
+    },
+    "preset" : "sr",
+    "samOutput" : true,
+    "fastqFiles" : [
+        {
+        "class" : "File",
+        "path"  : "SRR2297848_pass_1.fastq.gz"
+    },
+        {
+        "class" : "File",
+        "path"  : "SRR2297848_pass_2.fastq.gz"
+    }
+    ]
+}
+

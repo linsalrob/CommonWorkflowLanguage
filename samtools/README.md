@@ -25,13 +25,13 @@ The sam file `test.sam` is a small sam file (of some [crAssphage](https://github
 }
 ```
 
-
 With `cwl-runner` installed, you can run this with the command:
 
 ```bash
 cwl-runner samtools_convert_to_bam.cwl sam2bam_test.json
 ```
 
+This combination with take the file `test.sam` and convert it to the file `test.bam`.
 
 ## Sort a SAM file
 
@@ -54,4 +54,16 @@ You can run this using `cwl-runner`
 
 ```bash
 cwl-runner samtools_sort.cwl sam_sort_test.json
+```
+
+# Run a samtools workflow
+
+The [sam_workflow](sam_workflow.cwl) demonstrates how to tie these two together into a single workflow. This takes a samfile and runs sort and convert to bam and creates a bam file.
+
+You can run this with:
+
+```bash
+cwl-runner sam_workflow.cwl sam_test_workflow.json
+```
+
 
